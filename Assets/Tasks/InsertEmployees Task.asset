@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9a381fbca58c054ca06a18ba855b124, type: 3}
+  m_Name: InsertEmployees Task
+  m_EditorClassIdentifier: Assembly-CSharp::Environment.Tasks.InsertEmployeesTask
+  loadEmployeesTask: {fileID: 11400000, guid: 737b6d0362ea23c41a9673e4a3dc547f, type: 2}
+  employees:
+  - name: Alfred Pugsley
+    employeeId: 192
+    hasEngineRoomClearance: 0
+  - name: Jane  Sanchez
+    employeeId: 431
+    hasEngineRoomClearance: 1
+  - name: Nem Tudom
+    employeeId: 665
+    hasEngineRoomClearance: 1
